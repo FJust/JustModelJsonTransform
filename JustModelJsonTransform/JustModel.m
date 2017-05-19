@@ -28,7 +28,6 @@
 }
 
 - (NSDictionary *)covertToDict{
-    
     unsigned int count = 0;
     objc_property_t *properties = class_copyPropertyList(self.class, &count);
     NSMutableDictionary *resultDict = [@{} mutableCopy];
