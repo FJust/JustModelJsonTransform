@@ -15,6 +15,7 @@
 		4AF204B11ECF2B0600AB4BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF204AF1ECF2B0600AB4BDA /* LaunchScreen.storyboard */; };
 		4AF204BC1ECF2B0600AB4BDA /* JustModelJsonTransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF204BB1ECF2B0600AB4BDA /* JustModelJsonTransformTests.m */; };
 		4AF204C71ECF2B0600AB4BDA /* JustModelJsonTransformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF204C61ECF2B0600AB4BDA /* JustModelJsonTransformUITests.m */; };
+		4AF204D61ECF2B1200AB4BDA /* JustModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF204D51ECF2B1200AB4BDA /* JustModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4AF204C21ECF2B0600AB4BDA /* JustModelJsonTransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustModelJsonTransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF204C61ECF2B0600AB4BDA /* JustModelJsonTransformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JustModelJsonTransformUITests.m; sourceTree = "<group>"; };
 		4AF204C81ECF2B0600AB4BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF204D41ECF2B1200AB4BDA /* JustModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JustModel.h; sourceTree = "<group>"; };
+		4AF204D51ECF2B1200AB4BDA /* JustModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JustModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4AF204AF1ECF2B0600AB4BDA /* LaunchScreen.storyboard */,
 				4AF204B21ECF2B0600AB4BDA /* Info.plist */,
 				4AF204A11ECF2B0600AB4BDA /* Supporting Files */,
+				4AF204D41ECF2B1200AB4BDA /* JustModel.h */,
+				4AF204D51ECF2B1200AB4BDA /* JustModel.m */,
 			);
 			path = JustModelJsonTransform;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AF204A91ECF2B0600AB4BDA /* ViewController.m in Sources */,
+				4AF204D61ECF2B1200AB4BDA /* JustModel.m in Sources */,
 				4AF204A61ECF2B0600AB4BDA /* AppDelegate.m in Sources */,
 				4AF204A31ECF2B0600AB4BDA /* main.m in Sources */,
 			);

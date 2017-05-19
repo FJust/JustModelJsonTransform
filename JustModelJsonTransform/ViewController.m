@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JustModel.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    NSDictionary *dict = @{
+                           @"name" : @"刘阿猛",
+                           @"age"  : @25,
+                           @"occupation" : @"程序员",
+                           @"nationality" : @"天朝"
+                           };
+    JustModel *model = [[JustModel alloc] initWithDict:dict];
+    NSLog(@"%@，今年%@，职业：%@，祖籍：%@",model.name,model.age,model.occupation,model.nationality);
+    
+    NSDictionary *info = [model covertToDict];
+    NSLog(@"%@",info);
 }
 
 
